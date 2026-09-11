@@ -94,9 +94,4 @@ The operating parameters were calculated by hand and subsequently verified again
 | **Power Dissipation ($P_{M1}$)** | 170 mW | 170 mW | Verified |
 | **Gate Voltage ($V_g$)** | 5.93 V | 5.93 V | Verified |
 
----
 
-## Waveforms
-
-![Simulation Waveforms](waveforms/ldo_performance_overview.png)
-*Figure 1: LTspice waveform verification for $V_{out}$, $V_{fb}$, $I_{load}$, and $P_{M1}$.*
