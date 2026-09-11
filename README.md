@@ -41,7 +41,7 @@ All circuit operating parameters were derived theoretically by hand and subseque
 
 5. **Gate Drive Requirement ($V_g$):**
    $$V_g = V_{out} + V_{GS} = 3.30\text{V} + 2.63\text{V} = \mathbf{5.93\text{V}}$$
-   *(Where V_SG ≈ 2.63V is the source-to-gate voltage required for 100mA current flow, assuming a PMOS pass transistor with source tied to V_bat — the NMOS/V_out+V_GS form would demand 5.93V, exceeding the 5.0V rail.).*
+   *(Where V_GS ≈ 2.63V is the gate-to-source voltage required for 100mA current flow. Note: this exceeds V_bat = 5.0V, so an NMOS pass transistor in this configuration cannot reach full regulation from the battery rail alone — a charge pump or boosted gate supply above V_bat is required to drive the gate to 5.93V.).*
 
 ---
 
