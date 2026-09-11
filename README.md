@@ -17,7 +17,3 @@ The topology utilizes a **2N7002 NMOS** pass element configured as a source-foll
 | **Nominal Load Current** | $I_{load}$ | 100 | mA |
 | **Op-Amp Bias Rails** | $V_{bias\pm}$ | $\pm 8.0$ | V |
 | **Gate Drive Voltage** | $V_g$ | ~5.93 | V |
-
----
-
-## Circuit Schematic
